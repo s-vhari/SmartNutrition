@@ -1,1 +1,7 @@
-# SmartNutrition
+1. Product Name: Smart Nutrition Label Scanner
+2. Team Members: Siddharth Mulupuru, Arda Keskinpala, Leo Wang, Varun Hari
+3. Product Description: A smart nutrition label scanning app that allows users to scan barcodes and nutrition labels on the food items to translate hard-to-read and hard-to-understand terms to terms that are easy to understand. This app is used to help users make healthier choices and know what they are consuming and putting into their bodies.
+4. Target User: Middle-aged, millennial, 28–45 years old. Typically shopping for a household/family. People who want to get an instant, honest translation/summary of what a product actually contains. Helps users understand and eliminates confusion from nebulous marketing claims and copious amounts of raw data.
+5. Tech Stack: Java and Kotlin (programming languages). Flutter extension in VS Code and use the framework that comes with Flutter to create the Android App. We can also use the .NET MAUI framework for the app too. Google’s Firebase database for storing user data and tracking trends over time and stuff. We can use Google Lens API to search the image and get back results on nutrition. We can also use Google’s ML Kit or Open Food Facts API for barcode scanning and then OpenAI’s ChatGPT API to search it online and get back results.
+6. How to Run the Project (clear setup instructions): Download project to Android phone and then tap on the app to open it up. The project is running.
+7. Current Sprint Goal: The camera opens, UI visible, no crashes. Image is captured and passed to processing. Barcode decoded, basic info returned. All standard label fields displayed clearly with context. Alert notified, no false negatives on common allergies.
